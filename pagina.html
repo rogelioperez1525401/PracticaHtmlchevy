@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Pagina Chevy</title>
+
+</head>
+<body>
+	<header>
+		<center><img src="chevy.jpg" title="logo"></center>
+		<center><h1>Comunidad chevy</h1></center>
+		<center><font size=5 color="blue"><br><br><b> BIENVENIDO A MI PAGINA web</b><br><br></font></center>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="pag1.html">Inicio De Refacciones</a></li>
+			<li><a href="pag1.html">CATEGORIAS</a></li>
+			<li><a href="pag1.html">MECANICAS</a></li>
+			<li><a href="pag1.html">DISEÑOS</a></li>
+			<li><a href="pag1.html">AUTOPARTES</a>
+			<ul>
+				<li>Facebook</li>
+				<li>Twitter</li>
+			</ul>
+			</li>
+		</ul>
+	</nav>
+	
+	<section id="sitio">
+				<article class="sitios">
+					<h2>¡¡¡¡¡QUIENES SOMOS!!!!</h2>
+					<p>somos una empresa dedicada al diseño de autos chevys, desde los tiempos remotos.</p>
+
+				</article>
+				<article class="sitios">
+					<h2>Crea tu propio estilo de tu auto con nosotros</h2>
+					<center><img src="chevyp.jpg"></center>
+				</article>
+				<article class="sitios">
+					<h2>Colores Para ti y tu auto</h2> 
+
+				</article>
+			</section>
+
+	
+			<section>
+				<fieldset>
+				<center><font size=5 color="blue"><br><br><b> HACER COMPRA</b><br><br></font></center>
+					 <table width="314" border="0" align="center">
+    <tr>
+      <td width="163">CLAVE:</td>
+      <td width="156"><input type="text" name="clave" id="clave" required></td>
+    </tr>
+    <tr>
+      <td>CANTIDAD</td>
+      <td><input type="text" name="nombre" id="nombre"></td>
+    </tr>
+    <tr>
+      <td>CATEGORIA:</td>
+      <td><input type="text" name="email" id="email"></td>
+    </tr>
+	<tr>
+      <td>FECHA:</td>
+      <td><input type="date" name="ciudad" id="ciudad" step="1" min="2013-12-31" max="2020-12-31" value= "<?php echo date("Y-m-d");?></td>
+    </tr>
+    <tr>
+      <td>SUCURSAL:</td>
+      <td><input type="text" name="salario" id="salario"></td>
+    </tr>
+  </table>
+				</fieldset>
+
+			</section>	
+			<section>
+				<center><font size=5 color="blue"><br><br><b> CHECAR PRECIO DE UN PRODUCTO</b><br><br></font></center>
+<form name="f_prac" id="f_prac" action="bajascliente.php" method="post">
+  <div align="center">
+    <p><strong>Buscar clave del producto:
+      <input type="text" name="clave" id="clave">
+    </strong></p>
+  </div>
+  <p align="center">
+<input type="submit" value="BUSCAR" name="ELIMINAR" id="eliminar">
+<input type="button" onClick="window.location='indexcliente.html'" value="REGRESAR" name="regresar" id="regresar">
+</p>
+</form>
+			</section>
+			
+			<div id="mult">
+	<h1>EVIDENCIA DE NUESTROS TRABAJOS Y ACCESORIOS.</h1>
+	<video width="320" height="240" controls>
+  		<source src="chevy1.mp4" type="video/mp4">
+  		
+		Your browser does not support the video tag.
+	</video>
+
+	<br>
+	<br>
+			<h1>Has retumbar tu auto con esta cancion..</h1>
+	<audio controls>
+  		<source src="molotov.mp3" type="audio/mpeg">
+		Your browser does not support the audio element.
+	</audio>
+
+	
+</div>
+	<footer>
+		<center><p>PARA MAS INFORMACION COMUNICATE AL NUMERO 7121687966</p></center>
+	</footer>
+
+</body>
+</html>
