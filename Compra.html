@@ -1,0 +1,43 @@
+<html>
+<head>
+<center><font size=5 color="blue"><br><br><b> REALIZA TU COMPRA POR MAYOREO.</b><br><br></font></center>
+</head>
+<body>
+
+<form action= "altascliente.php" method="post">
+
+  <table width="314" border="0" align="center">
+    <tr>
+      <td width="163">CLAVE:</td>
+      <td width="156"><input type="text" name="clave" id="clave" required></td>
+    </tr>
+    <tr>
+      <td>NOMBRE:</td>
+      <td><input type="text" name="nombre" id="nombre"></td>
+    </tr>
+    <tr>
+      <td>NO. PIEZAS:</td>
+      <td><input type="text" name="email" id="email"></td>
+    </tr>
+    <tr>
+      <td>LUGAR DE ENVIO:</td>
+      <td><input type="text" name="empresa" id="empresa"></td>
+    </tr>
+	<tr>
+      <td>FECHA:</td>
+      <td><input type="date" name="ciudad" id="ciudad" step="1" min="2013-12-31" max="2020-12-31" value= "<?php echo date("Y-m-d");?>"</td>
+    </tr>
+    <tr>
+      <td>CORREO DEL CLIENTE:</td>
+      <td><input type="text" name="salario" id="salario"></td>
+    </tr>
+  </table>
+
+<p align="center">
+  <input type="submit" id="insertar" value="GUARDAR" name="guardar">
+  <input type="reset" id="cancelar" value="CANCELAR" name="cancelar">
+  <input type="button" onClick="window.location='indexcliente.html'" id="regresar" value="REGRESAR" name="regresar">
+</p>
+</form>
+</body>
+</html>
